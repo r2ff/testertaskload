@@ -1,6 +1,6 @@
 # Load tests for todo application
 - Java 17 or higher
-- Kotlin 1.9.x
+- Kotlin 2.0.x
 - Gradle 8.x
 - Docker
 
