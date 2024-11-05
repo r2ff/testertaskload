@@ -1,0 +1,22 @@
+gatling:
+  service:
+    baseUrl: http://localhost:8080
+  performance:
+    intensity: 500 # maximal number of users on the last stage
+    rampDuration: 10 # time (seconds) for ramp-up stage
+    stageDuration: 60 # time (seconds) for load stage
+    stages: 2 # number of load stages
+  stability:
+    intensity: 200 # maximal number of users during load stage
+    rampDuration: 60 # time (seconds) for ramp-up stage
+    stageDuration: 1800 # time (seconds) for load stage
+  stress:
+    intensity: 200 # maximal number of users during load stage
+    rampDuration: 60 # time (seconds) for ramp-up stage
+    stageDuration: 1800 # time (seconds) for load stage
+  volume:
+    intensity: 200 # maximal number of users during load stage
+    rampDuration: 60 # time (seconds) for ramp-up stage
+    stageDuration: 1800 # time (seconds) for load stage
+service:
+  baseUrl: http://localhost:8080
